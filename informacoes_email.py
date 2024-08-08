@@ -23,9 +23,9 @@ body = f'''Prezado(a) {PESSOA.nome()} {PESSOA.sobrenome()}, estou entrando em co
     Segue o anexo para obter os resultados.
     \n\n-Teste'''
 
-msg['From'] = 'rogerioferreirarosa61@gmail.com'
+msg['From'] = 'remetente@gmail.com'
 msg['To'] = PESSOA.email()
-password = 'rjtjgjaeesvdqrin'
+password = 'password'
 
 msg.attach(MIMEText(body, 'plain'))
 
